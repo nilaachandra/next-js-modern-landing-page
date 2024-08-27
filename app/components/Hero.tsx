@@ -10,6 +10,8 @@ import Cluth from "../../public/assets/Clutch.svg";
 import JumpingText from "@/components/animata/jumping-text";
 import WaveReveal from "@/components/animata/wave-text";
 import { TextEffect } from "@/components/animata/TextEffect";
+import { AvatarList } from "@/components/animata/AvatarList";
+import { Ticker } from "@/components/animata/Ticker";
 
 export function Hero() {
   return (
@@ -21,12 +23,22 @@ export function Hero() {
             text="Start monitoring your website like a pro"
           />
         </div>
-        <TextEffect per='word' as='h3' preset='blur' className="text-center pt-6 text-[#36485C] lg:text-[18px] lg:leading-7">
+        <TextEffect
+          per="word"
+          as="h3"
+          preset="blur"
+          className="text-center pt-6 text-[#36485C] lg:text-[18px] lg:leading-7"
+        >
           Get a birds eye view with our customizable dashboard. Stay on top of
           things! Revamp your work process with our game-changing feature. Boost
           productivity and efficiency!
         </TextEffect>
-
+        <div className="flex flex-col justify-center items-center w-full mt-6">
+          <AvatarList />
+          <div className="font-bold text-2xl flex items-center">
+            <Ticker />+ Happy Users
+          </div>
+        </div>
         <div className="flex w-full pt-8 justify-center gap-x-6 ">
           <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
             Try for free
