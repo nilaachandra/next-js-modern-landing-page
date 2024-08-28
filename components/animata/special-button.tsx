@@ -162,7 +162,7 @@ export default function SpecialButton() {
           className="absolute left-3 top-3 size-1.5 animate-sparkle fill-white"
         />
 
-        <span className="font-semibold">Try For Free</span>
+        <span className="text-sm">Try Free</span>
       </div>
       {!!particleState && (
         <Particles
