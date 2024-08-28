@@ -20,7 +20,7 @@ export function Features() {
           <h3 className="font-medium text-[#0085FF] lg:text-[18px] ">
             Sales Monitoring
           </h3>
-          <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+          <h1 className="pt-[12px] text-2xl font-bold text-[#172026] lg:text-[42px] lg:leading-[58px]">
             Simplify your sales monitoring
           </h1>
           <Image
@@ -74,7 +74,7 @@ export function Features() {
           <h3 className="font-medium text-[#00A424] lg:text-[18px] ">
             Customer Support
           </h3>
-          <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+          <h1 className="pt-[12px] text-2xl font-bold text-[#172026] lg:text-[42px] lg:leading-[58px]">
             Get in touch with your customers
           </h1>
           <Image
@@ -128,7 +128,7 @@ export function Features() {
           <h3 className="font-medium text-[#EB2891] lg:text-[18px] ">
             Growth Monitoring
           </h3>
-          <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+          <h1 className="pt-[12px] text-2xl font-bold text-[#172026] lg:text-[42px] lg:leading-[58px]">
             Monitor your sites new subscribers
           </h1>
           <Image

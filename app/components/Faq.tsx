@@ -46,11 +46,11 @@ const items = [
 export function Faq() {
   return (
     <div className="flex flex-col w-full py-[48px] lg:py-[60px] lg:flex-row lg:gap-x-6">
-      <div className="lg:w-1/3 lg:py-[32px] lg:pr-[56px]">
-        <h3 className="text-[#EB2891] text-[14px] font-medium lg:text-base">
+      <div className="lg:w-1/2 lg:py-[32px] lg:pr-[56px]">
+        <h1 className="text-[#EB2891] text-[14px] font-bold lg:text-base">
           Frequently Asked Questions
-        </h3>
-        <h1 className="py-4 text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+        </h1>
+        <h1 className="py-4 text-2xl font-semibold text-[#172026] lg:text-[42px] lg:leading-[58px]">
           Lets clarify some of your questions
         </h1>
         <p className="text-[#36485C] pb-[24px]">
@@ -59,7 +59,7 @@ export function Faq() {
         </p>
       </div>
 
-      <div className="lg:w-2/3">
+      <div className="lg:w-1/2">
         <Accordion type="single" collapsible className="space-y-3">
           {items.map((item) => (
             <AccordionItem

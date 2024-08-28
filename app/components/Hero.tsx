@@ -12,6 +12,7 @@ import WaveReveal from "@/components/animata/wave-text";
 import { TextEffect } from "@/components/animata/TextEffect";
 import { AvatarList } from "@/components/animata/AvatarList";
 import { Ticker } from "@/components/animata/Ticker";
+import SpecialButton from "@/components/animata/special-button";
 
 export function Hero() {
   return (
@@ -40,9 +41,7 @@ export function Hero() {
           </div>
         </div>
         <div className="flex w-full pt-8 justify-center gap-x-6 ">
-          <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
-            Try for free
-          </button>
+          <SpecialButton/>
           <button className="w-1/2 text-[#4328EB] flex items-center justify-center gap-x-2 lg:w-fit">
             View Pricing
             <span>

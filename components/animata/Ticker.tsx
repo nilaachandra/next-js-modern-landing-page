@@ -9,7 +9,7 @@ export function Ticker() {
   const isInView = useInView(ref);
 
   if (isInView && value === 0) {
-    setValue(300);
+    setValue(1200);
   }
 
   return (
@@ -18,7 +18,7 @@ export function Ticker() {
         className='inline-flex items-center font-bold text-2xl text-zinc-800 dark:text-zinc-50'
         springOptions={{
           bounce: 0,
-          duration: 600,
+          duration: 2400,
         }}
         value={value}
       />

@@ -8,5 +8,5 @@ const avatarUrls = [
 ];
 
 export async function AvatarList() {
-  return <AvatarCircles numPeople={300} avatarUrls={avatarUrls} />;
+  return <AvatarCircles numPeople={1200} avatarUrls={avatarUrls} />;
 }
