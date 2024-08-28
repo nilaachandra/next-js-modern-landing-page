@@ -116,7 +116,7 @@ const options: ISourceOptions = {
   ],
 };
 
-export default function SpecialButton() {
+export default function SpecialButton({ text }: { text: string }) {
   const [particleState, setParticlesReady] = useState<"loaded" | "ready">();
   const [isHovering, setIsHovering] = useState(false);
 
@@ -162,7 +162,7 @@ export default function SpecialButton() {
           className="absolute left-3 top-3 size-1.5 animate-sparkle fill-white"
         />
 
-        <span className="text-sm">Try Free</span>
+        <span className="text-sm">{text}</span>
       </div>
       {!!particleState && (
         <Particles

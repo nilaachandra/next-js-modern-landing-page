@@ -3,6 +3,7 @@ import Logo from "../../public/assets/Logo.svg";
 import User from "../../public/assets/User.svg";
 import Menu from "../../public/assets/Menu.svg";
 import AnimatedBackground from "@/components/core/animate-background";
+import MobileNav from "./MobileNav";
 
 const navLinks = [
   { name: "Features" },
@@ -53,8 +54,7 @@ export function Navbar() {
             Sign in
           </span>
         </div>
-
-        <Image src={Menu} alt="Menu Button" className="lg:hidden" />
+        <MobileNav />
       </div>
     </nav>
   );

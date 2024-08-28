@@ -41,7 +41,7 @@ export function Hero() {
           </div>
         </div>
         <div className="flex w-full pt-8 justify-center gap-x-6 ">
-          <SpecialButton/>
+          <SpecialButton text="Try Free"/>
           <button className="w-1/2 text-[#4328EB] flex items-center justify-center gap-x-2 lg:w-fit">
             View Pricing
             <span>
